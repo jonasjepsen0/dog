@@ -14,6 +14,6 @@ async function getData() {
   } catch (error) {
     console.error(error.message);
   }
-
-  imgElement.src = imgURL;
 }
+
+getData()
