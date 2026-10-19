@@ -15,5 +15,5 @@
   "theme_color": "#ff4600",
   "background_color": "#ff4600",
   "display": "fullscreen",
-  "start_url": "/home"
+  "start_url": "./"
 }
