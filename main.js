@@ -10,7 +10,6 @@ async function getData() {
     }
 
     const blob = await response.blob();
-    console.log(result);
 
     let imgURL = URL.createObjectURL(blob);
     imgElement.src = imgURL;
