@@ -1,3 +1,8 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+  console.log("App: service worker registered");
+}
+
 const imageUrl = "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_19002.jpg"; 
 const imgElement = document.getElementById("image");
 
