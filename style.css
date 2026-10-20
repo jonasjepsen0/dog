@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(65, 60, 60);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 184, 89);
+    margin-bottom: 10px;
+}
+
+#dogicon{
+    max-width: 60px;
+    margin-right: 120px;
+}
+
+#h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+#image{
+    display: flex;
+    justify-self: center;
+    width: 600px;
+}
