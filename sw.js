@@ -7,8 +7,8 @@ const FILES = [
   "./index.html",
   "./style.css",
   "./fetch.js",
-  "./images/dog.svg",
   "./manifest.json",
+  "./images/dog.svg",
   "./icons/192.png",
   "./icons/512.png",
 ];
@@ -41,8 +41,8 @@ self.addEventListener("activate", () => {
 // 3. FETCH: strategi cache first hvor vi først tjekker om filen findes i cache, hvis ikke henter vi den fra netværket
 self.addEventListener("fetch", (event) => {
 
-  console.log("Service worker: event", event);
-   console.log("Service worker: fetch", event.request.url);
+//   console.log("Service worker: event", event);
+//    console.log("Service worker: fetch", event.request.url);
 
   event.respondWith(
 
