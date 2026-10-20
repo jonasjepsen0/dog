@@ -9,6 +9,8 @@ const FILES = [
   "./fetch.js",
   "./images/dog.svg",
   "./manifest.json",
+  "./icons/192.png",
+  "./icons/512.png",
 ];
 
 // 1. INSTALL: gem filerne i cache
